@@ -1,0 +1,28 @@
+:root{
+	--font-1: 'Open Sans', sans-serif;
+	--font-2: 'Raleway', sans-serif;
+}
+
+#main-header{
+	position: relative;
+	margin-top: -27px;
+	background-image: url('images/kc-background.jpg');
+	background-size: 100%;
+	height: 200px;	
+}
+#kc-header{
+	position: absolute;
+    margin-top: 144px;
+    margin-left: 332px;
+    font-family: var(--font-1);
+    color: red;
+}
+#logo{
+	height: 51px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar{
+	margin-top: -167px;
+}
