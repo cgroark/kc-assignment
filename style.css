@@ -1,7 +1,13 @@
 :root{
 	--font-1: 'Open Sans', sans-serif;
 	--font-2: 'Raleway', sans-serif;
+	--color-blue: #3F6672;
+	--color-green: #8DAE3C;
 }
+hr{
+	width: 90%;
+}
+
 
 #main-header{
 	position: relative;
@@ -11,23 +17,83 @@
 }
 #kc-header{
 	position: absolute;
-	bottom: 0;
+    bottom: 0;
+    right: 12px;
     font-family: var(--font-1);
-    color: red;
+    font-size: 50px;
+    color: rgb(20,20,20);
 }
 #logo{
-	height: 46px;
+	height: 66px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 4px;
+    left: 12px;
+    z-index: 99;
 }
 #mission{
-	margin: 2% 5%;
+	margin: 5% 10% 5% 5%;
+	font-size: 18px;
+	font-family: var(--font-2);
 }
-#carousel{
-	width: 60%;
-	margin: 0 20%;
+.nav-link{
+	font-family: var(--font-1);
+	font-size: 22px;
+	color: var(--color-blue);
+	margin-left: 10%;
+	margin-top: 4%;
 }
-#carousel-item{
-	height: 150px;
+.nav-link:hover{
+	color: var(--color-green);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	height: 79px !important;
+	width: 79px !important;
+}
+.carousel-control-next, .carousel-control-prev{
+	height: 275px;
+	top: 38px;
+}
+.carousel-caption{
+	background-color: rgba(20,20,20,.6);
+	width: 100%;
+	left: 0 !important;
+	right:0 !important;
+}
+
+.carousel-link{
+	color: white;
+	text-decoration: underline;
+	font-size: 18px;
+}
+.carousel-indicators{
+	bottom: -7px !important;
+}
+.section-header{
+	font-family: var(--font-1);
+    font-size: 44px;
+    color: rgb(20,20,20);
+    margin-left: 5%;
+}
+#careers{
+	height: 500px;
+}
+.accordion{
+	background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
