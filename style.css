@@ -5,24 +5,29 @@
 
 #main-header{
 	position: relative;
-	margin-top: -27px;
 	background-image: url('images/kc-background.jpg');
-	background-size: 100%;
+	background-size: cover;
 	height: 200px;	
 }
 #kc-header{
 	position: absolute;
-    margin-top: 144px;
-    margin-left: 332px;
+	bottom: 0;
     font-family: var(--font-1);
     color: red;
 }
 #logo{
-	height: 51px;
+	height: 46px;
     position: absolute;
     top: 0;
     left: 0;
 }
-.navbar{
-	margin-top: -167px;
+#mission{
+	margin: 2% 5%;
+}
+#carousel{
+	width: 60%;
+	margin: 0 20%;
+}
+#carousel-item{
+	height: 150px;
 }
