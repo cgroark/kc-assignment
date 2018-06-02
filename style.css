@@ -49,12 +49,17 @@ hr{
 	font-size: 18px;
 	font-family: var(--font-2);
 }
+nav{
+	position: fixed;
+}
 .nav-link{
 	font-family: var(--font-1);
 	font-size: 22px;
 	color: var(--color-blue);
 	margin-left: 10%;
-	margin-top: 4%;
+	margin-bottom: 27px !important;
+	padding-top: 0 !important;
+	width: 100%;
 }
 .nav-link:hover{
 	color: var(--color-green);
@@ -90,6 +95,7 @@ hr{
 }
 #careers, #community, #programs{
 	margin-bottom: 20px;
+	margin-left: -24px;
 }
 .hiring-subheader{
 	color: var(--color-blue);
@@ -110,7 +116,7 @@ hr{
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 90%;
+    width: 95%;
     margin: 1% 5%;
     text-align: left;
     border: none;
@@ -216,7 +222,31 @@ hr{
 	margin-top: 5px;
 }
 
+footer{
+	background-color: var(--color-darkgrey);
+	height: 100%;
 
+}
+#contact-header{
+	padding-top: 15px;
+	text-align: center;
+	color: var(--color-lightgrey);
+	font-family: var(--font-1);
+}
+#email-form{
+	margin: 5% 20%;
+}
+#submit-button{
+	width: 60%;
+	margin: 0 20% 0 20%;
+	border-radius: 5px;
+	background-color: var(--color-blue);
+	color: black;
+	cursor: pointer;
+}
+input{
+	margin-bottom: 15px !important;
+}
 
 
 
