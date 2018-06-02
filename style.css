@@ -230,8 +230,13 @@ footer{
 #contact-header{
 	padding-top: 15px;
 	text-align: center;
-	color: var(--color-lightgrey);
+	color: var(--color-blue);
 	font-family: var(--font-1);
+}
+.fa-phone, .fa-envelope{
+	float: left;
+	margin-right: 6px;
+	font-size: 24px;
 }
 #email-form{
 	margin: 5% 20%;
