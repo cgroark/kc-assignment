@@ -19,17 +19,17 @@
 		<div id='mission'>
 			<p>The mission of the King County Prosecuting Attorney’s Office is to do justice. We exercise the power given to us by the people with fairness and humility. We serve our diverse community, support victims and families, and hold individuals accountable. We develop innovative and collaborative solutions for King County and the State of Washington.</p>
 		</div>
+		<nav class='nav nav-tabs flex-column justify-content-end'>
+					<ul id='nav-links'>
+						<li><a id='career-nav' class='nav-item nav-link' href='#career-header'>Careers</a></li>
+						<li><a id='program-nav' class='nav-item nav-link' href='#program-header'>Programs</a></li>
+						<li><a id='community-nav' class='nav-item nav-link' href='#community-header'>Community Services</a></li>
+						<li><a id='contact-nav' class='nav-item nav-link' href='#contact-header'>Contact</a></li>
+					</ul>
+		</nav>
+			
 		<div class='row'>
-			<div class='col-md-4 col-sm-4'>
-				<nav class='nav nav-tabs flex-column justify-content-end'>
-					<a class='nav-item nav-link' href='#career-header'>Careers</a>
-					<a class='nav-item nav-link' href='#program-header'>Programs</a>
-					<a class='nav-item nav-link' href='#community-header'>Community Services</a>
-					<a class='nav-item nav-link' href='#contact-header'>Contact</a>
-				</nav>
-			</div>
-
-			<div id='carousel' class='col-md-7 col-sm-7 carousel slide' data-ride='carousel'>
+			<div id='carousel' class='col-md-7 col-sm-10 offset-sm-1 offset-md-4 carousel slide' data-ride='carousel'>
 		  		<ol class='carousel-indicators'>
 				    <li data-target='#carousel' data-slide-to='0' class='active'></li>
 				    <li data-target='#carousel' data-slide-to='1'></li>
@@ -37,21 +37,21 @@
 		  		</ol>
 		  		<div class='carousel-inner'>
 		    		<div class='carousel-item active'>
-		      			<img class='d-block w-100' src='images/carousel-1.jpg' alt='First slide'>
+		      			<img class='d-block w-100' src='images/carousel-1.jpg' alt='Amanda Froh stands with her arms crossed, smiling in a black blazer and black rimmed glasses. She is outside stadning in front of a stone wall with ivy'>
 		      			<div class='carousel-caption d-none d-md-block'>
 		      				<h5>Amanda Froh</h5>
 		    				<a class='carousel-link' href='https://www.kingcounty.gov/depts/prosecutor/profiles-new/FrohAmanda.aspx' target='_blank'>See Profile</a>
 		    			</div>
 		    		</div>
 		    		<div class='carousel-item'>
-		      			<img class='d-block w-100' src='images/carousel-2.jpg' alt='Second slide'>
+		      			<img class='d-block w-100' src='images/carousel-2.jpg' alt='Sean Goode stands outside smiling at the camera, wearing a red sweather over a blue collared shirt.'>
 		      			<div class='carousel-caption d-none d-md-block'>
 		    				<h5>Sean Goode</h5>
 		    				<a class='carousel-link' href='https://www.kingcounty.gov/depts/prosecutor/profiles-new/Goode%20Sean.aspx' target='_blank'>See Profile</a>
 		    			</div>
 		    		</div>
 		    		<div class='carousel-item'>
-		      			<img class='d-block w-100' src='images/carousel-3.jpg' alt='Third slide'>
+		      			<img class='d-block w-100' src='images/carousel-3.jpg' alt='Mark Larson leans in on a motorcycle in front of the Pike Place Market sign. He is smiling, weaing sunglasses and a leather jacket'>
 		      			<div class='carousel-caption d-none d-md-block'>
 		    				<h5>Mark Larson</h5>
 		    				<a class='carousel-link' href='https://www.kingcounty.gov/depts/prosecutor/profiles-new/Larson%20Mark.aspx' target='_blank'>See Profile</a>
@@ -70,7 +70,7 @@
 		</div>
 		<hr>
 		<div class='row'>
-			<div class='col-md-7 col-sm-7 offset-md-4'>
+			<div class='col-md-7 col-sm-10 offset-md-4 offset-sm-1'>
 				<div id='careers'>
 					<h1 class='section-header' id='career-header'>Careers and Recruitment</h1>
 					<p id='career-mission'>We value diversity and strive to hire a workforce that reflects the community that we serve. It is essential to our mission that we create and maintain an office that is diverse and inclusive.  We encourage you to <span><button class='video-button'>watch our six minute video</button></span> discussing our values:</p> 
@@ -271,7 +271,7 @@
 								<p class='hiring-subheader'>Victims have the right to be reimbursed for losses caused directly in the commission of a crime.</p>
 								<p>Criminal restitution is money ordered by the court and paid by the offender. It is ordered at the time the offender is sentenced. Monies are paid to the Superior Court Clerk and then disbursed to the victim.</p>
 
-								<p>For assistance in this process, or if you would like to be informed of case status or notice of hearings, click below to see addtional contact information</p>
+								<p>For assistance in this process, or if you would like to be informed of case status or notice of hearings, click below to see addtional contact information.</p>
 								<button class=accordion-mini id='rest-button'>Restitution Assistance</button>
 									<div class='panel-mini'>
 										<div class='row'>
@@ -349,8 +349,8 @@
 		</div>
 	</main>
 	<div class='row'>
-		<div class='col-md-7 offset-md-4 col-sm-7'>
-		<footer>
+		<div class='col-md-7 offset-md-4 col-sm-10 offset-sm-1'>
+		<div id='contact'>
 			<h1 id='contact-header'> Contact Us</h1>
 				<form id='email-form' method='post' action='#'>
 	  				<div class="form-group">
@@ -373,21 +373,21 @@
 	  				</div>
 	  				<button type="submit" id='submit-button'>Submit</button>
 				</form>
-				<div class='row'>
-					<div class='col-md-5 offset-md-2 col-sm-5'>
+				<div class='row contact-end'>
+					<div class='col-md-5 offset-md- col-sm-5 offset-sm-1'>
 						<div><i class="fas fa-phone"></i><h5>Call us</h5></div>
 							<p>Phone: 206-296-0100</p>
 							<p>Toll Free: 800-325-6165</p>
 							<p>TTY Relay: 711</p>
 					</div>
-					<div class='col-md-5 col-sm-5'>
+					<div class='col-md-5 col-sm-5 offset-sm-1'>
 						<div><i class="fas fa-envelope"></i><h5>Mail Us</h5></div>							
 							<p>King County Courthouse</p>
 							<p>516 Third Avenue</p>
 							<p>Seattle, WA 98104</p>
 					</div>
 				</div>
-		</footer>
+		</div>
 		</div>
 	</div>
 

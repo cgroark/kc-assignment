@@ -39,4 +39,3 @@ for(i=0; i<accordionMini.length; i++){
 		}
 	});
 }
-
