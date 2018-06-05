@@ -1,8 +1,6 @@
 let accordion = $('.accordion');
 let accordionMini = $('.accordion-mini');
 let video = $('.career-video');
-console.log(accordion)
-console.log(video)
 let i;
 
 $('.video-button').on( 'click', function() {
@@ -10,7 +8,6 @@ $('.video-button').on( 'click', function() {
 });
 
 $('.hide-button').on('click', function(){
-	console.log('function reachedddd')
 	$('.career-video').css('display', 'none');
 });
 
@@ -18,7 +15,6 @@ $('.hide-button').on('click', function(){
 for(i=0; i<accordion.length; i++) {
 	accordion[i].addEventListener('click', function(){
 		this.classList.toggle('active');
-
 		var panel = this.nextElementSibling;
 		if(panel.style.display === 'block') {
 			panel.style.display = 'none';

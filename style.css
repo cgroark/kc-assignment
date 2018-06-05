@@ -182,9 +182,7 @@ nav{
 	color: var(--color-lightgrey);
 
 }
-#rest-button{
-	width: 200px;
-}
+
 .panel, .panel-mini{
     padding: 0 18px;
     background-color: white;
